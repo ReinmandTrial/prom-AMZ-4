@@ -1,0 +1,121 @@
+// MAX-WIDTH 1600PX breakpoints START
+@media (max-width: 1600px) {
+}
+// MAX-WIDTH 1600PX breakpoints END
+
+// MAX-WIDTH 1399.98PX breakpoints START
+@media (max-width: 1399.98px) {
+}
+// MAX-WIDTH 1399.98PX breakpoints END
+
+// MAX-WIDTH 1199.98PX breakpoints START
+@media (max-width: 1199.98px) {
+}
+// MAX-WIDTH 1199.98PX breakpoints END
+
+// MAX-WIDTH 991.98PX breakpoints START
+@media (max-width: 991.98px) {
+   .evaluation {
+      &__content {
+         padding: 100px 0 50px;
+      }
+      &__descr {
+         margin-bottom: 30px;
+         max-width: 578px;
+      }
+      &__post-info {
+         max-width: 578px;
+      }
+   }
+   .evaluation-menu__container {
+      margin-bottom: 30px;
+   }
+   .review {
+      &__content {
+         padding: 70px 0 60px;
+      }
+      &__title {
+         font-size: 36px;
+         padding: 0 8px;
+         margin-bottom: 50px;
+         line-height: 46px;
+      }
+      &__info-leftside {
+         margin-right: 47px;
+      }
+   }
+}
+// MAX-WIDTH 991.98PX breakpoints END
+
+// MAX-WIDTH 767.98PX breakpoints START
+@media (max-width: 767.98px) {
+   .container {
+      padding: 0 20px;
+   }
+}
+// MAX-WIDTH 767.98PX breakpoints END
+
+// MAX-WIDTH 576.98PX breakpoints START
+@media (max-width: 575.98px) {
+   .panel-email-form {
+      border-radius: 0px 0px 10px 10px;
+      &__content {
+         padding: 30px 0 25px;
+      }
+      &__descr {
+         font-size: 20px;
+         margin-bottom: 30px;
+      }
+   }
+   .evaluation {
+      &__content {
+         padding: 40px 0 20px;
+      }
+      &__title {
+         font-size: 24px;
+         margin-bottom: 10px;
+      }
+   }
+   .result {
+      &__title {
+         font-size: 24px;
+         line-height: 30px;
+         margin-bottom: 80px;
+      }
+   }
+   .review {
+      &__content {
+         padding: 50px 0;
+      }
+      &__title {
+         font-size: 24px;
+         line-height: 30px;
+         padding: 0;
+         margin-bottom: 30px;
+      }
+      &__input-block {
+         margin-bottom: 30px;
+      }
+      &__input-short {
+         margin: 4px 5px;
+         width: calc(100% - 10px);
+      }
+      &__submit-btn {
+         margin-bottom: 40px;
+      }
+      &__info {
+         padding: 20px 0 30px;
+         flex-direction: column;
+         margin-bottom: 30px;
+      }
+      &__info-leftside {
+         margin-right: unset;
+         width: unset;
+         max-width: unset;
+      }
+      &__info-warning {
+         margin-bottom: 30px;
+      }
+   }
+}
+// MAX-WIDTH 576.98PX breakpoints END
