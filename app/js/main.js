@@ -1,8 +1,5 @@
 
-var referrer_url = document.referrer;
-console.log(referrer_url); // вот ваша строка
-
-$(document).ready(function (e) {
+$(document).ready(function () {
    $('.panel-email-form__input').on("keyup", function () {
       // alert("dfds");
       let email = $(".panel-email-form__input").val();
@@ -14,7 +11,6 @@ $(document).ready(function (e) {
    });
    $('.panel-email-form__input-btn').on('click', function () {
       $(".panel-email-form").slideUp(800);
-
    });
 
 
@@ -88,31 +84,15 @@ $(document).ready(function (e) {
          }
       })
       if (count_star > 3) {
-         window.location.href = "result.html";
+         // window.location.href = "result.html";
+         setTimeout(function () {
+            window.location.href = "result.html";
+         }, 1000);
       } else if (count_star < 4) {
-         window.location.href = "review.html";
+         setTimeout(function () {
+            window.location.href = "review.html";
+         }, 1000);
+         // window.location.href = "review.html";
       }
    });
-   // if ($("#file").prop("disabled", true)) {
-   //    $("#file").closest(".upload__box").find(".upload").addClass("disabled");
-   // }
-   // $(".review__link").on("click", function () {
-   //    var btn = $(this);
-   //    var block = btn.closest(".rewiew__steps");
-   //    var input = block.find("#file");
-
-   //    input.prop("disabled", false);
-   //    block.find(".upload").removeClass("disabled")
-   // });
-   // var file = document.querySelector('#file');
-   // var upload = document.querySelector('.upload');
-
-   // file.addEventListener('input', () => {
-   //    if (file.files.length) {
-   //       upload.innerText = file.files[0].name;
-   //       setTimeout(function () {
-   //          window.location.href = "result.html";
-   //       }, 1500);
-   //    }
-   // });
 });
